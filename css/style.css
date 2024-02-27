@@ -113,3 +113,30 @@ a{
     border: none;
     border-radius: 8px;
 }
+/*discount section*/
+.discout-div{
+    width: 100%;
+    height: 180px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.discout-div h3{
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: #164bf8;
+    padding-bottom: 8px;
+}
+.discout-div p{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+}
+
