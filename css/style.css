@@ -13,7 +13,7 @@ a{
     text-decoration: none;
     color: #fff;
 }
-/*header section*/
+/*.............header section.............*/
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -39,15 +39,15 @@ a{
     font-weight: 800;
     font-family: cursive;
 }
-/*banner style*/
+/*.........banner style..............*/
 .banner-section img{
     width: 100%;
     height: 500px;
 }
-/*online section style*/
+/*.............online section style............*/
 .online-courses{
     display: flex;
-    gap: 14px;
+    gap: 18px;
 }
 .online-sec{
     padding-top: 20px;
@@ -57,7 +57,7 @@ a{
     font-weight: bold;
     font-family: sans-serif;
 }
-/*card style*/
+/*...............card style............*/
 .online-courses{
     margin-top: 18px;
     margin-bottom: 12px;
@@ -73,6 +73,7 @@ a{
 }
 .courses-card img{
     width: 100%;
+    height: 250px;
     border-radius: 10px;
 }
 .card-div{
@@ -113,10 +114,13 @@ a{
     border: none;
     border-radius: 8px;
 }
-/*discount section*/
+/*..........discount section............*/
+.discout-section{
+    padding: 16px 0px;
+}
 .discout-div{
     width: 100%;
-    height: 180px;
+    height: 380px;
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
@@ -139,4 +143,55 @@ a{
     font-family: sans-serif;
     text-align: center;
 }
-
+/*.......offline styles.............*/
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    margin-top: 17px;
+}
+.see-more{
+    border: 0px;
+    border-radius: 8px;
+    background-color: #164bf8;
+    color: azure;
+    padding: 8px 16px;
+}
+/*footer section*/
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 20px;
+    padding: 35px 8px;
+    background-color: black;
+    color: #fff;
+}
+.ft-div1 h2{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.ft-div2 ul li{
+    line-height: 28px;
+    list-style: decimal;
+    font-size: 20px;
+}
+.ft-div3 h4{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 0px;
+}
+.search-div input{
+    border: 0px;
+    padding: 7px 8px;
+    border-radius: 8px;
+}
+.email-btn{
+    background-color: #164bf8;
+    color: #fff;
+    border: 0px;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
