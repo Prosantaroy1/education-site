@@ -11,6 +11,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 /*header section*/
 .nav-container{
@@ -42,4 +43,73 @@ a{
 .banner-section img{
     width: 100%;
     height: 500px;
+}
+/*online section style*/
+.online-courses{
+    display: flex;
+    gap: 14px;
+}
+.online-sec{
+    padding-top: 20px;
+}
+.online-sec h2{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/*card style*/
+.online-courses{
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+.courses-card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid rgb(5, 5, 7);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px  rgb(34, 53, 29);
+    background-color: aliceblue;
+}
+.courses-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-div{
+    padding: 10px 0px;
+}
+.card-div h4{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 0px 8px;
+}
+.card-subtitle{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+}
+.card-subtitle-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+}
+.card-subtitle-1 p{
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-subtitle p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-subtitle button{
+    padding: 8px 6px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
 }
